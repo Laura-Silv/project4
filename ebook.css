@@ -1,0 +1,163 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f3e7; 
+  font-family: serif;
+  color: #222;
+  text-align: left;
+}
+
+.top-nav, .bottom-nav {
+  background-color: #eee4d3;
+  padding: 12px 0;
+}
+
+.nav-list, .bottom-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-list a, .bottom-nav-list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+.nav-list a.active, .bottom-nav-list a.active {
+  text-decoration: underline;
+}
+
+.intro-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.intro-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.intro-border {
+  border: 2px solid #5a4a3b;
+  padding: 60px 40px;
+  width: 60%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.intro-border::before,
+.intro-border::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #5a4a3b;
+}
+
+.intro-border::before {
+  top: -2px;
+  left: -2px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.intro-border::after {
+  bottom: -2px;
+  right: -2px;
+  border-left: none;
+  border-top: none;
+}
+
+/* BIG DECORATIVE A */
+.big-letter {
+  font-family: "Great Vibes", cursive;
+  font-size: 110px;
+  margin: 0;
+  color: #4a3a2a;
+}
+
+.book-title {
+  font-family: "Macondo Swash Caps", serif;
+  font-size: 28px;
+  margin-top: -10px;
+  color: #3a2a1b;
+}
+
+.author-name {
+  font-family: "Macondo Swash Caps", serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #eee4d3;
+}
+
+.chapter-container {
+  max-width: 50em;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+.chapter-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chapter-title {
+  font-family: "Macondo Swash Caps", serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+.chapter-subtitle {
+  font-family: "Macondo Swash Caps", serif;
+  font-size: 26px;
+  margin-top: 5px;
+  color: #4a3a2a;
+}
+
+.chapter-image-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+  width: 200px;
+  text-align: center;
+}
+
+.chapter-image-left img {
+  width: 100%;
+  border: 1px solid #5a4a3b;
+}
+
+.chapter-image-left figcaption {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #5a4a3b;
+}
+
+.chapter-text p {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.chapter-container {
+  border: 5px dotted #b76d28;
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 20px;
+  background-color: #fdf8ef;
+  box-shadow: 0 0 18px rgba(0,0,0,0.15);
+}
+
